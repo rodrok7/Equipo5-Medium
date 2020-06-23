@@ -1,0 +1,86 @@
+<body> 
+  <div class="container" style="margin-top: 20px;"><!---Inicia card de post-->
+      <div class="row">
+          <div class="col-md-5 p-5 col-12 mb-3 " style="border-style: inset; border-color: gray;">
+              <form class="needs-validation" novalidate>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip01">Author</label>
+                      <input type="text" class="form-control" id="autor-input" data-points-to="autor">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip02">Tittle</label>
+                      <input type="text" class="form-control" id="tittle-input" data-points-to="tittle">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip03">Content</label>
+                      <input type="text" class="form-control" id="content-input" data-points-to="content">
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationTooltip04">Section</label>
+                      <input type="text" class="form-control" id="tipe-input" data-points-to="tipe">
+                    </div>
+                    <div class="col-md-3 mb-3">
+                      <label for="validationTooltip05">Date</label>
+                      <input type="text" class="form-control" id="date-input" data-points-to="date">
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="validationTooltip05">Url</label>
+                      <input type="text" class="form-control" id="url-input" data-points-to="url">
+                    </div>
+                    <div class="col-12 mb-3">
+                      <label for="validationTooltip05">Time Reading</label>
+                      <input type="text" class="form-control" id="time-input" data-points-to="timereading">
+                    </div>
+                  </div>
+                  <button class="btn btn-secondary" type="button" style="margin-top: 15px;" id="submit">Submit</button>
+                </form>
+          </div> <!---Termina card de post-->
+          <div class="col-md-7 pl-5 col-12" id="previewWrapper"> <!---Inicia Tabla de Post-->
+            <div class="col-md-7 pl-5 col-12">
+              <div class="card border-white">
+                  <img src=https://cdn-images-1.medium.com/focal/832/302/59/31/1*QvCDWYODYBkOqHom6VxA7g.jpeg
+                      class="card-img-top" alt="...">
+                  <div class="card-body">
+                      <h5 class="card-title" id="previewTittle"> </h5>
+                      <p class="card-text" id="previewContent"> </p>
+                      <p class="card-text mb-0" id="previewAutor"><small> </small></p>
+                      <div class="row">
+                          <div class="col-10">
+                              <p class="card-text" id="previewDate"><small class="text-muted">May 1 · 4 min read ★</small></p>
+                              <p class="card-text" id="previewTimeReading"></p>
+                          </div>
+                          <div class="col-2 d-flex justify-content-end px-0">
+                              <div class="d-md-none">
+                                  <a class="text-dark mx-1" href="#"><i class="far fa-bookmark"></i></a>
+                              </div>
+                              <a class="text-dark mx-1" href="#"><i
+                                      class="fas fa-ellipsis-h text-muted"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div> <!---Termina Tabla de Post-->
+      </div>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
